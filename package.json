@@ -1,0 +1,27 @@
+{
+  "name": "task_manager",
+  "version": "1.0.0",
+  "description": "A system where users manage work with structure, states, and control",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/app.js",
+    "client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renfrrd-ai/Task-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/renfrrd-ai/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/renfrrd-ai/Task-Manager#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
